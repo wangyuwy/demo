@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrap{
+	position: relative;
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(rgba(196, 228, 253,.5) 40%,rgba(148, 190, 89,.8) 60%);
+}
+div.wrap > div{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	top: 100px;
+	left: 100px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 68%;
+	border-top-right-radius: 68%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+div.wrap > div::before{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	content: '';
+	top: 21px;
+	left: -17px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+div.wrap > div::after{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	content: '';
+	top: 20px;
+	left: 20px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+.wrap .cloud1{
+	top: 47px;
+	left: 733px;
+	transform: scale(.8);
+}
+.wrap .cloud2{
+	top: 30px;
+	left: 206px;
+	transform: scale(.5);
+}
+.wrap .cloud3{
+	top: 87px;
+	left: 1000px;
+	transform: scale(1);
+}
+.wrap .cloud4{
+	top: 70px;
+	left: 100px;
+	transform: scale(.3);
+}
+.wrap .cloud5{
+	top: 77px;
+	left: 440px;
+	transform: scale(.8);
+}

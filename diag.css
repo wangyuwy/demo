@@ -1,0 +1,45 @@
+.diag {
+    font-family: 'Microsoft Yahei';
+    font-size: 30px;
+    font-weight: bold;
+/*     line-height: 90px; */
+    position: absolute;
+    top: 300px;
+    right: 0;
+    left: 0;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    border: 5px solid #000;
+    border-radius: 50%;  
+    }
+.diag > span{
+	position: absolute;
+	width: 400px;
+    height: 200px;
+	top: 60px;
+	left: 10px;
+}
+
+.diag::before{
+	position: absolute;
+	content: '';
+	width: 20px;
+	height: 20px;
+	top: 50px;
+	left: -40px;
+	border: 5px solid #000;
+    border-radius: 50%;
+}
+
+.diag::after{
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 10px;
+	top: 50px;
+	left: -70px;
+	border: 5px solid #000;
+    border-radius: 50%;
+}
