@@ -8,11 +8,17 @@ body{
 	margin: 0;
 }
 
+.container{
+	width: 100%;
+	height: 900px;
+	background: url(../images/bg.jpg) repeat;
+	position: relative;
+}
+
 header{
 	width: 100%;
 	height: 100px;
 	line-height: 100px;
-	background: url(../images/bg.jpg) repeat;
 	position: relative;
 	left:0;
 	right: 0;
@@ -23,10 +29,34 @@ header{
 	font-family: Cambria,Palatino,'Palatino Linotype',"Palatino LT STD",General,serif;
 }
 
+.animation{
+	width: 100px;
+	height: 300px;
+	overflow: hidden;
+	position: absolute;
+	top: -30px;
+	right: 0px;
+}
+
+.imgSet{
+	position: absolute;
+	animation-name: play;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+}
+
+@keyframes play{
+	0%{top: -30px;}
+	33%{top: -330px;}
+	66%{top: -630px;}
+	100%{top: -930px;}
+}
+
 article.wrap{
 	width: 100%;
 	height: 800px;
-	background: url(../images/bg.jpg) repeat;
+	/* background: url(../images/bg.jpg) repeat; */
 	position: relative;
 }
 
@@ -95,7 +125,7 @@ article.wrap a > div.page_6{
 }
 
 article.wrap a > div.page_7{
-	background: url(../images/7.jpg) no-repeat;
+	background: url(../images/7.jpeg) no-repeat;
 	background-size: cover;
 	top: 260px;
 	left: 350px;
