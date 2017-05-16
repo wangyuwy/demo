@@ -479,3 +479,7 @@
 		-webkit-transform: rotate(-10deg);
 	}
 }
+
+a{
+	text-decoration: none;
+}

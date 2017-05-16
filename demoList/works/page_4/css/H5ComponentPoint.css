@@ -1,0 +1,23 @@
+/*散点组件样式 */
+.h5_component_name_point{
+	color: #fff;
+}
+.h5_component_name_point .point{
+	background-color: #ccc;
+	display:block;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.h5_component_name_point .name{
+	height: 50px;
+	margin-top: -15px;/*两步用于子元素垂直居中*/
+	width: 100%;
+	text-align: center;/*两步用于子元素水平居中*/
+	position: absolute; 
+	top: 50%;
+	font-size: 25px;
+}
+.h5_component_name_point .name{
+ 	font-size: 2em;
+ }

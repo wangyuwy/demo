@@ -1,0 +1,479 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: "黑体";
+}
+
+body{
+	width: 980px;
+	height: 1400px;
+	margin: 0px auto;
+	background-color: #A19F9F;
+}
+
+.outside{
+	width: 960px;
+	background-color: #FFFFFF;
+}
+
+.top{
+	width: 960px;
+	height: 50px;
+}
+
+.top_left{
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.left_img > img{
+	width: 30px;
+	height: 30px;
+	margin: 0px auto;
+}
+
+.top_right{
+	float: right;
+	width: 450px;
+	height: 50px;
+	line-height: 30px;
+	margin-top: 15px;
+}
+
+
+.right_word li{
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;	
+	height: 50px;
+}
+
+.right_word li a{
+	font-size: 16px;
+	height: 36px;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+	font-family: "FangSong";
+}
+
+.login{
+	margin-right: 20px;
+}
+
+.right_word li:hover{
+	color: #F22323;
+}
+
+.login span{
+	margin-left: 10px;
+	text-decoration: none;
+}
+.logo_word{
+	width: 980px;
+	height: 650px;
+}
+
+.logo{
+	background: url("../image/pic01.jpg") no-repeat center;
+	width: 960px;
+	height: 350px;
+	padding-top: 150px;
+}
+
+.logo_ .p1{
+	margin-left: 150px;
+	font-size: 40px;
+	font-family: "DFKai-SB";
+	color: #FFFFFF;
+}
+
+.logo_ .p2,.logo_ .p3{
+	margin-left: 150px;
+	font-size: 20px;
+	font-family: "DFKai-SB";
+	color: #FFFFFF;
+	line-height: 30px;
+}
+
+.logo span{
+	display: block;
+	width: 220px;
+	height: 40px;
+	margin-left: 150px;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: "DFKai-SB";
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 15px;
+	background-color: #D04141
+}
+
+.logo_bottom{
+	width: 980px;
+	height: 300px;
+}
+
+.logo_1,.logo_2,.logo_3,.logo_4{
+	float: left;
+	margin: 40px 0px;
+}
+
+.logo_pic1,.logo_pic2,.logo_pic3,.logo_pic4{
+	text-align: center;
+}
+
+.logo_word1,.logo_word2,.logo_word3,.logo_word4{
+	margin-top: 20px;
+}
+
+.logo_word1,.logo_word2,.logo_word3{
+	border-right: 1px solid #C8C0C0;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.logo_word4{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.About_world{
+	width: 960px;
+	height: 340px;
+	background-color: #E6E2E2;
+}
+
+.About_world_img{
+	clear: both;
+	text-align: center;
+
+}
+.About_world_img img{
+	width: 50px;
+	height: 60px;
+}
+.About_world_img p{
+	font-size: 40px;
+	color: #A19A9A;
+}
+
+.world_info{
+	text-align: center;
+}
+
+.world_info{
+	background-image: url("../image/pic02.jpg");
+	width: 960px;
+	height: 200px;
+	text-align: center;
+	position: relative;
+}
+
+.cover{
+	background-color: #F25A5A;
+	opacity: 0.3;
+	width: 960px;
+	height: 200px;
+	display: inline-block;
+}
+
+.pp{
+	height: 20px;
+	width: 400px;
+	position: absolute;
+	top: 50px;
+	left: 350px;
+}
+
+.select_reserch{
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	display: block;
+}
+
+.country,.provence,.city,.Button{
+	width: 90px;
+}
+
+.activity{
+	width: 960px;
+	height: 350px;
+	background-color: #E6E2E2;
+}
+
+.activity>div{
+	float: left;
+	margin-top: 30px;
+	margin-left: 32px;
+	text-align: center;
+}
+
+.beijing img,.shanghai img,.shenzhen img,.xianggang img{
+	width: 200px;
+	height: 250px;
+}
+
+.pp1,.pp2,.pp3,.pp4{
+	font-size: 20px;
+}
+
+.world_pic{
+	float: left;
+	background: url("../image/pic07.jpg") no-repeat center;
+	background-size: 650px 350px;
+	width: 650px;
+	height: 350px;
+}
+
+.world_pic > div{
+	padding-top: 50px;
+}
+
+.world_pic p{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.world_pic .p1{
+	font-size: 40px;
+}
+
+.world_pic .p2{
+	font-size: 70px;
+}
+
+.word_world{
+	float: right;
+	width: 250px;
+	height: 250px;
+	padding: 100px 20px 0px 20px;
+	line-height: 20px;
+}
+
+.word_world p{
+	font-size:12px;
+	color: #D9D4D4; 
+	font-family: 'FangSong';
+}
+
+.word_world .title{
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.word_world span{
+	color: red;
+	font-size: 16px;
+}
+.new_time{
+	clear: both;
+}
+
+
+.word_world .detail,.new_time2 .detail{
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	border:1px solid #F98E8E;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.new_time1{
+	background-color: #F98E8E;
+	text-align: center;
+	font-size: 40px;
+	color: #FFFFFF;
+	float: left;
+	width: 325px;
+	height: 300px;
+}
+
+.new_time2{
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 40px;
+	color: #000000;
+	float: left;
+	width: 325px;
+	height: 300px;
+}
+
+.new_time1 div,.new_time2 div{
+	margin-top: 100px;
+}
+
+.new_time1 p,.new_time2 p{
+	font-size: 16px;
+}
+
+.new_time3{
+	width: 100px;
+	height: 300px;
+	float: left;
+}
+
+.new_time3 img{
+	width: 310px;
+	height: 300px;
+}
+
+.new_time1 .detail{
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	border:1px solid #FFFFFF;
+
+	margin-top: 10px;
+}
+
+.new_time1 .detail,.new_time2 .detail{
+	margin-left: 108px;
+}
+
+.content_2{
+	clear: both;
+	width: 960px;
+	padding-top: 50px;
+}
+
+.call{
+	width: 960px;
+	text-align: center;
+}
+
+.call .title{
+	font-size: 16px;
+	font-family: "FangSong";
+	margin-bottom: 10px;
+}
+
+.call p{
+	font-family: "FangSong";
+}
+
+.apply{
+	margin-top: 50px;
+	width: 860px;
+	margin-left: 90px;
+	line-height: 20px;
+	height: 250px;
+}
+
+.apply_introduction{
+	float: left;
+	width: 300px;
+	height: 250px;
+}
+
+.apply p,.apply h2{
+	font-family: "FangSong";
+}
+
+.more{
+	display: block;
+	text-align: right;
+}
+
+.introduction_1,.introduction_2,.introduction_3{
+	margin-top: 20px;
+}
+
+.apply_enter{
+	float: left;
+	width: 450px;
+	height: 250px;
+	margin-left: 70px;
+}
+
+.apply_enter input{
+	width: 200px;
+	height: 40px;
+	margin-top: 10px;
+	background-color: #C9C5C5;
+	border: none;
+}
+
+.apply_enter textarea{
+	width: 410px;
+	height: 80px;
+	margin-top: 10px;
+	background-color: #C9C5C5;
+	border: none;
+}
+
+#submit{
+	width: 410px;
+	height: 40px;
+	margin-top: 10px;
+	border: none;
+}
+
+.bottom{
+	clear: both;
+	margin-top: 10px;
+	width: 960px;
+	height: 150px;
+	background-color: #555050;
+	text-align: center;
+	padding-top: 40px;
+	line-height: 30px;
+}
+
+.contact h2{
+	font-size: 14px;
+}
+
+.contact p{
+	font-size: 10px;
+}
+
+.contact p,.contact h2{
+	color: #FFFFFF;
+}
+
+.input_text {
+	width: 300px;
+	height: 20px;
+}
+
+.footer{
+	width: 960px;
+	height: 20px;
+	background-color: #070101;
+}
+
+.foot_left{
+	color: #FFFFFF;
+	font-size: 10px;
+	float: left;
+}
+
+.foot_right{
+	color: #FFFFFF;
+	font-size: 10px;
+	float: right;
+}
+
+li a:hover,li a:active{
+	border-bottom: 2px solid #F77272;
+	/*background-color: red;*/
+	display: block;
+}
+
+::after{
+	
+}

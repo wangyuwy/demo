@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	background: url(../images/bg.jpg) repeat;
+	position: relative;
+	left:0;
+	right: 0;
+	margin: 0 auto;
+	color: #416a68;
+	font-size: 50px;
+	text-align: center;
+	font-family: Cambria,Palatino,'Palatino Linotype',"Palatino LT STD",General,serif;
+}
+
+article.wrap{
+	width: 100%;
+	height: 800px;
+	background: url(../images/bg.jpg) repeat;
+	position: relative;
+}
+
+article.wrap a{
+	display: block;
+}
+
+article.wrap a > div{
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	border: 10px solid transparent;
+	position: absolute;
+	border-image-source: url(../images/border.jpg);
+	border-image-slice: 47%;
+	border-image-width: 10%;
+	border-image-outset: 2px;
+	box-shadow: 7px 7px 11px 4px rgba(0,0,0,.1) inset;
+	left: 150px;
+	top: 150px;
+}
+
+article.wrap a > div.page_1{
+	background: url(../images/1.jpg) no-repeat;
+	background-size: cover;
+	top: 80px;
+	left: 100px;
+}
+
+article.wrap a > div.page_2{
+	background: url(../images/2.png) no-repeat;
+	background-size: cover;
+	background-position: 0px -20px;
+	top: 80px;
+	left: 350px;
+}
+
+article.wrap a > div.page_3{
+	background: url(../images/3.jpg) no-repeat;
+	background-size: cover;
+	background-position: -80px 0px;
+	top: 80px;
+	left: 600px;
+}
+
+article.wrap a > div.page_4{
+	background: url(../images/4.png) no-repeat;
+	background-size: cover;
+	top: 80px;
+	left: 850px;
+}
+
+article.wrap a > div.page_5{
+	background: url(../images/5.jpg) no-repeat;
+	background-size: cover;
+	top: 80px;
+	left: 1100px;
+}
+
+article.wrap a > div.page_6{
+	background: url(../images/6.jpg) no-repeat;
+	background-size: cover;
+	background-position: -40px 0px;
+	top: 260px;
+	left: 100px;
+}
+
+article.wrap a > div.page_7{
+	background: url(../images/7.jpg) no-repeat;
+	background-size: cover;
+	top: 260px;
+	left: 350px;
+}
+
+article.wrap a > div.page_8{
+	background: url(../images/8.png) no-repeat;
+	background-size: cover;
+	background-position: -5px -50px;
+	top: 260px;
+	left: 600px;
+}

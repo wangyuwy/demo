@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>test</title>
+	<script type="text/javascript" src="test.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			var date = new Date();
+			var year = date.getFullYear();
+			var month = date.getMonth();
+			calendar(year,month+1);
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+	<table>
+    <thead>
+        <tr><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>日</th></tr>
+    </thead>
+    <tbody>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    </tbody>
+</table>
+</body>
+</html>

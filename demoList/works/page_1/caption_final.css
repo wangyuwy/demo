@@ -1,0 +1,47 @@
+/* All tag */
+* { margin:0; padding:0;}
+body { font-family:'Microsoft YaHei UI'; font-size:14px;}
+/* header */
+header { width:100%;}
+header .container { width:100%; height:50px; background-color:#2e2e2e;}
+header .container .logo { position:relative; top:50%; left:60px; float:left; width:141px; height:31px; margin:-15.5px;}
+header .nav { position:relative; top:20px; right:60px; float:right; height:31px;}
+header .nav a { display:block; float:right; margin-right:20px; text-decoration:none; color:#ffffff;}
+header .bannerImg { min-width:1000px; height:668px; background-image:url('img/banner.jpg'); background-repeat:no-repeat; background-size:100%;}
+header .nav a:hover{color: blue;}
+/* portfolio*/
+.portfolio { width:100%; height:768px; margin-top:0px;}
+.portfolio .heading { font-size:40px; font-weight:normal; margin-bottom:20px; text-align:center; color:#f46208;}
+.portfolio span { display:block; text-align:center;}
+.portfolio .details { width:361px; height:34px; margin:auto; padding-top:50px; padding-bottom:30px;}
+.portfolio .details .list { float:left; margin-right:10px; padding:4px; color:#f46208; border:2px solid #f46208;}
+.portfolio .portfolioImg { min-width:100%; height:558px; background-image:url('img/portfolio-nav-img.jpg'); background-repeat:no-repeat; background-size:100%;}
+.portfolio .details .list:hover{background-color: red;}
+/* stats */
+.stats { clear:both; width:100%; height:350px; margin-top:0px;}
+.stats .heading { font-size:40px; font-weight:normal; clear:both; margin-bottom:20px; text-align:center; color:#f46208;}
+.stats span { display:block; text-align:center;}
+.stats .comprehensive { width:810px; height:100px; margin:auto;}
+.stats dl { position:relative; display:block; float:left; height:74px; margin:50px 65px;}
+.stats dl dt{text-align: center;}
+.stats dl dd { margin-top:10px; text-align:center;}
+.stats dl dd:last-of-type { font-size:20px; color:#f46208;}
+/* team */
+.team { position:relative; width:100%; height:550px; background-color:#2e2e2e;}
+.team .teamChild { position:absolute; top:40px; right:0; left:0; width:1000px; margin:0 auto;}
+.team .heading { font-size:40px; font-weight:normal; margin-bottom:20px; text-align:center; color:#f46208;}
+.team span { display:block; text-align:center; color:#ffffff;}
+.team .list { position:absolute; right:0; left:0; width:850px; margin:0 auto;}
+.team dl { position:relative; display:block; float:left; width:240px; height:173px; margin:50px 20px;}
+.team dl dd { margin-top:10px; text-align:center; color:#ffffff;}
+/* contactUs */
+.contactUS { position:relative; width:100%; height:550px; margin-top:80px; background-color:#ffffff;}
+.contactUS .heading { font-size:40px; font-weight:normal; margin-bottom:20px; text-align:center; color:#f46208;}
+.contactUS span { display:block; margin-bottom:70px; text-align:center; color:#000000;}
+.contactUS form { text-align:center;}
+.contactUS .infomation input { width:400px; height:30px; margin-bottom:20px;}
+.contactUS .infomation input:last-of-type { border:none;width:150px; height:50px; color:#ffffff; background-color:#f46208;}
+.contactUS .infomation .message { display:table-cell; overflow:hidden; width:820px; height:140px; margin-bottom:20px; vertical-align:middle;}
+/* footer */
+footer { position:relative; width:100%; height:50px; background-color:#2e2e2e;}
+footer .container p { position:absolute; top:50%; left:50%; width:250px; height:20px; margin:-10px 0 0 -125px; color:#ffffff;}
