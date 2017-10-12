@@ -125,3 +125,9 @@ article.wrap a > div.page_8{
 	background-size: cover;
 	background-position: -5px -50px;
 }
+
+article.wrap a > div.page_9{
+	background: url(../images/9.jpg) no-repeat;
+	background-size: cover;
+	/*background-position: -5px -50px;*/
+}

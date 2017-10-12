@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>微贷网</title>
+  <style>
+    .co2,.h2o {
+      font-size: 0.5em;
+    }
+    .arrow {
+      display: inline-block;
+      width: 20px;
+      height: 5px;
+      border-top: 1px solid #000;
+    }
+    .equal{
+      position: relative;
+    }
+    .equal:after{
+      content: '';
+      position: absolute;
+      left: 48px;
+      top: 4px;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid #000;
+    }
+    .up{
+      position: absolute;
+      top: 0px;
+      left: 77px;
+      font-size: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <span class="co"><i>CO<span class="co2">2</span></i></span>
+    <span>+</span>
+    <span class="ho"><i>H<span class="h2o">2</span>O</i></span>
+    <span class="equal">
+      <span class="arrow"></span>
+      <span class="arrow"></span>
+    </span>
+    <span><i>有机物</i></span>
+    <span>+</span>
+    <span><i>氧气</i></span>
+  </div>
+  <div class="up">
+    <span><i>光</i></span>
+    <span>+</span>
+    <span><i>绿叶体</i></span>
+  </div>
+</body>
+</html>
